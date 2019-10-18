@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="restaurantStyles.css">
+        <script type="text/javascript" src="main.js"></script>
+        <title>Boishakhi - Menu</title>
+        <style>
+            main {
+                background-color: #8fafff;
+            }
+
+            #menu {
+                overflow: auto;
+            }
+
+            #menu::after {
+                content: "";
+                clear: both;
+            }
+
+            #menu .menu-item {
+                float: left;
+                width: 33.33333%;
+                margin: 10px 0;
+            }
+
+            #menu .menu-item h4 {
+                font-size: 16pt;
+            }
+
+            #menu .menu-item p {
+                font-size: 11pt;
+            }
+
+            #beverages {
+                width: 33.33333%;
+                margin: 0 auto;
+            }
+
+            #beverages h2 {
+                text-align: center;
+            }
+
+            #beverages table {
+                width: 100%;
+                margin-top: 5px;
+                border-collapse: collapse;
+            }
+
+            #beverages table td {
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <p id="js-warning">You have JavaScript disabled. Please consider enabling JavaScript for the best user experience.</p>
+            <h1>Boishakhi</h1>
+            <ul class="nav nav-pills" id="menu-list">
+                <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa fa-home"></i></a></li>
+                <li class="nav-item"><a class="nav-link active" href="menu.html">Menu</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+            </ul>
+        </header>
+        <main>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <h4>Burger and Fries</h4>
+                        <p>An american Classic! Your choice - with or without cheese pickle, onion, tomato, and lettuce served with our famous thick cut french fries</p>
+                        <p>$7.95</p>
+                    </div>
+                    <div class="col-sm">
+                        <h4>Hot Dog and Chips</h4>
+                        <p>An american Classic! Your choice - with or without cheese pickle, onion, tomato, and lettuce served with our famous thick cut french fries</p>
+                        <p>$7.95</p>
+                    </div>
+                    <div class="col-sm">
+                        <h4>Italian Sausage and Peppers</h4>
+                        <p>An american Classic! Your choice - with or without cheese pickle, onion, tomato, and lettuce served with our famous thick cut french fries</p>
+                        <p>$10.95</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm">
+                        <h4>Tenderloin Sandwich and Chips</h4>
+                        <p>An american Classic! Your choice - with or without cheese pickle, onion, tomato, and lettuce served with our famous thick cut french fries</p>
+                        <p>$8.95</p>
+                    </div>
+                    <div class="col-sm">
+                        <h4>House Salad</h4>
+                        <p>An american Classic! Your choice - with or without cheese pickle, onion, tomato, and lettuce served with our famous thick cut french fries</p>
+                        <p>$6.95</p>
+                    </div>
+                    <div class="col-sm">
+                        <h4>Brisket Sandwich and Fries</h4>
+                        <p>An american Classic! Your choice - with or without cheese pickle, onion, tomato, and lettuce served with our famous thick cut french fries</p>
+                        <p>$7.95</p>
+                    </div>
+                </div>
+            </div>
+            <div id="beverages">
+                <h2>Beverages</h2>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>Root Beer</td>
+                            <td>$3.00</td>
+                        </tr>
+                        <tr>
+                            <td>Bottled Water</td>
+                            <td>$1.25</td>
+                        </tr>
+                        <tr>
+                            <td>Lemonade</td>
+                            <td>$1.00</td>
+                        </tr>
+                        <tr>
+                            <td>Iced Tea</td>
+                            <td>$1.25</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </main>
+        <footer>
+            <p>6509 Flying Cloud Dr, Eagen, MN 55234</p>
+            <p>+1 (959) 463-1928</p>
+        </footer>
+    </body>
+</html>

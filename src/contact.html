@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="restaurantStyles.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="main.js"></script>
+        <title>Boishakhi - Contact Us</title>
+        <style>
+            #contact-us {
+                width: 100%;
+            }
+
+            #contact-us table {
+                margin: auto;
+            }
+
+            #contact-us-button {
+                text-align: center;
+                margin-top: 10px;
+            }
+
+            #contact-us td {
+                padding: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <p id="js-warning">You have JavaScript disabled. Please consider enabling JavaScript for the best user experience.</p>
+            <h1>Boishakhi</h1>
+            <ul class="nav nav-pills" id="menu-list">
+                <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa fa-home"></i></a></li>
+                <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+                <li class="nav-item"><a class="nav-link active" href="contact.html">Contact Us</a></li>
+            </ul>
+        </header>
+        <main>
+            <form action="#" onsubmit="return validateForm(this);" id="contact-us">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td><b>Name:</b></td>
+                            <td><input type="text" class="form-control" name="name"></td>
+                        </tr>
+                        <tr>
+                            <td><b>Email:</b></td>
+                            <td><input type="email" class="form-control" name="email"></td>
+                        </tr>
+                        <tr>
+                            <td><b>Phone:</b></td>
+                            <td><input type="text" class="form-control" name="phone"></td>
+                        </tr>
+                        <tr>
+                            <td><b>Reason for Inquiry:</b></td>
+                            <td>
+                                <select class="form-control">
+                                    <option>Catering</option>
+                                    <option>Private Party</option>
+                                    <option>Feedback</option>
+                                    <option>Other</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Additional Information:</td>
+                            <td><textarea cols="24" rows="4" class="form-control"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td>Have you been to the restaurant?</td>
+                            <td>
+                                <input type="radio">No
+                                <input type="radio">Yes
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Best days to contact you:</td>
+                            <td>
+                                <input type="checkbox">M
+                                <input type="checkbox">T
+                                <input type="checkbox">W
+                                <input type="checkbox">Th
+                                <input type="checkbox">F
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div id="contact-us-button">
+                    <button class="btn btn-primary">Send Request</button>
+                </div>
+            </form>
+        </main>
+        <footer>
+            <p>6509 Flying Cloud Dr, Eagen, MN 55234</p>
+            <p>+1 (959) 463-1928</p>
+        </footer>
+    </body>
+</html>

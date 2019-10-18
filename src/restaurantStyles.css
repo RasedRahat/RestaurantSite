@@ -1,0 +1,89 @@
+html, body {
+    width: 100%;
+}
+
+header h1 {
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+    background-color: skyblue;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: skyblue;
+}
+
+#menu-list {
+    list-style-type: none;
+    padding: 10px 0;
+    background-color: lightgray;
+}
+
+#menu-list li {
+    display: inline;
+    padding: 10px;
+}
+
+#menu-list li a:link {
+    color: darkblue;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+#menu-list li a:visited {
+    color: purple;
+}
+
+#menu-list li a:hover {
+    font-weight: bold;
+}
+
+#menu-list li a:active {
+    color: red;
+    font-weight: normal;
+}
+
+main {
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.thin {
+    padding: 20px 0;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+#content {
+    margin-top: 20px;
+}
+
+#content p {
+    margin-top: 10px;
+}
+
+.img-container {
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+}
+
+#carousel-container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+#carousel-container h4 {
+    font-size: 16pt;
+    line-height: 28pt;
+}
+
+#js-warning {
+    margin: 0;
+    padding: 10px;
+    background-color: #af1f1f;
+    color: white;
+}
